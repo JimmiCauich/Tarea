@@ -1,0 +1,54 @@
+<!-- CSS->Cascade Style Sheet
+	Se puede incluir en HTML de 3 formas:
+	<link>
+	<style>
+	<body style="">
+-->
+
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<meta charset="utf-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<form action="">
+		<div>
+		<label>Nombre</label>
+		<input type="text" maxlength="10">
+		</div>
+
+		<div>
+		<label>Contraseña</label>
+		<input type="password" maxlength="10">
+		</div>
+<div>
+	<label for="">Mis Gustos</label>
+	<input type="checkbox"><span>Leer</span>
+	<input type="checkbox"><span>Futbol</span>
+	<input type="checkbox"><span>Cine</span>
+	<input type="checkbox"><span>Bailar</span>
+</div>
+<div>
+	<label for="">Genero</label>
+	<input type="radio" name="genero" ><label for="">Masculino</label>
+	<input type="radio" name="genero" ><label for="">Femenino</label>
+	<input type="radio" name="genero" ><label for="">Otro</label>
+</div>
+<div>
+	<label for="">Estado civil</label>
+<select>
+	<option value="Soltero">Soltero</option>
+	<option value="Casado">Casado</option>
+	<option value="Viudo">Viudo</option>
+	<option value="Union Libre" selected="selected">Union Libre</option>
+	<option value="Divorciado">Divorciado</option>
+</select>
+</div>
+		<div>
+			<input type="submit" value="Pulsa aqui vato">
+		</div>
+	</form>
+</body>
+</html>
